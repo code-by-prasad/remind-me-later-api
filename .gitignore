@@ -1,0 +1,30 @@
+# === Python bytecode ===
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.py[cod]
+
+# === Virtual environments ===
+venv/
+.venv/
+env/
+.env/
+
+# === VS Code & IDEs ===
+.vscode/
+.idea/
+
+# === Django specific ===
+*.log
+db.sqlite3
+media/
+staticfiles/
+local_settings.py
+
+# === Environment variables ===
+.env
+
+# === OS generated files ===
+.DS_Store
+Thumbs.db
