@@ -24,7 +24,7 @@ Api_Project_Folder/
 └── .gitignore
 ```
 
-Remind-me-later API (Django)
+## Remind-me-later API (Django)
 
 This is a simple Django REST API that allows users to create reminders with a custom message, scheduled date and time, and a method of notification (SMS or Email).
 
@@ -37,8 +37,8 @@ This is a simple Django REST API that allows users to create reminders with a cu
   - Reminder method: "sms" or "email"
 - Stores data in a SQLite3 database
 
-## API Endpoints
-### GET /remind_new/
+## API Endpoints      
+### GET /remainders/
 List all remainders.
 ### POST /remind_new/
 Create a new reminder.
