@@ -38,9 +38,9 @@ This is a simple Django REST API that allows users to create reminders with a cu
 - Stores data in a SQLite3 database
 
 ## API Endpoints      
-### GET /remainders/
+### GET api/remainders/
 List all remainders.
-### POST /remind_new/
+### POST api/remind_new/
 Create a new reminder.
 
 #### Sample JSON Body:
